@@ -1,0 +1,15 @@
+{
+  "name": "RSS-Parser",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-xml-bodyparser": "*",
+    "morgan": "*",
+    "nodemon": "^1.11.0"
+  }
+}
