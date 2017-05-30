@@ -5,8 +5,5 @@ angular.module('app1', [
 .config(function ($routeProvider) {
 	console.log('helloopo')
   $routeProvider
-    .when('/signin', {
-      templateUrl: 'test.html',
-      controller: 'myapp'
-    })
+    
 })
