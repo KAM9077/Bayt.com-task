@@ -12,10 +12,5 @@ app.listen(3000, function () {
 })
 
  
-parser.parseURL('http://www.bayt.com/live-bookmarks/all-rss.xml', function(err, parsed) {
-  console.log(parsed.feed);
-  parsed.feed.entries.forEach(function(entry) {
-    //console.log(entry.title + ':' + entry.link);
-  })
-})
+
 
